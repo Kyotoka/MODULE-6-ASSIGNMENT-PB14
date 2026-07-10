@@ -86,7 +86,16 @@
 
 }
 .speaker-container {
-    max-width: 1440px;
-    margin: o auto;
     display: flex;
+    justify-content: center;
+}
+.professionals-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 33px;
+    margin-bottom: 33px;
+}
+.dev {
+    border-radius: 12px;
+    overflow: hidden;
 }
