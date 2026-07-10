@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+#interfont {
+    font-family: inter;
+}
 .container {
     max-width: 1551px;
     margin: 0 auto;
@@ -11,9 +14,64 @@
 .navigationbar {
     display: flex;
     justify-content: space-between;
+    margin: 23.5px 115.5px;
+    align-items: center;
 }
 .navul {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     list-style: none;
+    font-family: arimo;
+    font-size: 16px;
+}
+.registerbtn {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    padding: 12px 41.5px;
+    cursor: pointer;
+    border-style: none;
+}
+.hero-section {
+    background-image: url('../assets/banner.png');
+    background-position: center;
+    background-size: contain;
+    width: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-h1 {
+    color: #ffffff;
+    font-family: inter;
+    font-size: 80px;
+    padding-top: 136px;
+}
+.hero-text-p {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: inter;
+    text-align: center;
+    margin-top: 16px;
+}
+.hero-text-btn {
+    color: #ffffff;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24.18px 62.5px;
+    /* need to add text outline */
+    /* -webkit-text-stroke: 1px black ; */
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 278px;
+    margin-bottom: 79px;
+
 }
