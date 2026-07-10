@@ -4,3 +4,16 @@
   margin: 0;
   padding: 0;
 }
+.container {
+    max-width: 1551px;
+    margin: 0 auto;
+}
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
