@@ -37,7 +37,7 @@
 .hero-section {
     background-image: url('../assets/banner.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     width: auto;
     background-repeat: no-repeat;
     display: flex;
@@ -242,6 +242,7 @@ margin: 20px 0;
     margin-top: 20px;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn2 {
     padding: 11px 124.84px;
@@ -252,6 +253,7 @@ margin: 20px 0;
     margin-top: 20px;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn3 {
     padding: 11px 113.33px;
@@ -262,6 +264,7 @@ margin: 20px 0;
     margin-top: 20px;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 .form-section-with-ai {
     background-color: #0D1B2A;
