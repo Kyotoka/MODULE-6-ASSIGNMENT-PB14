@@ -8,8 +8,8 @@
     font-family: "inter";
 }
 .container {
-    max-width: 1551px;
-    margin: 0 auto;
+    /* max-width: 1551px;  for piel perfect from figma
+    margin: 0 auto; */
 }
 .navigationbar {
     display: flex;
@@ -345,8 +345,8 @@ margin: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1551px;
-    margin: 0 auto;
+    /* max-width: 1551px; for pixel perfect of figma
+    margin: 0 auto; */
     color: #ffffff;
     font-size: 16px;
     padding: 20px 60px;
