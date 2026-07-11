@@ -1,11 +1,11 @@
-i want to make a contact form section with html and css
-requirement
-name
-email
-messege
+ i want you to make a submission form section as a news letter
+newsletter on the left and a job board section and FAQ on the right
+ requirements Name Email Number Txt  
+ use placeholder in form number placeholder bangladeshi number 
+ - must be full width 
+ -design base on these colors #0D1B2A #E5E7EB #ffffff #2563EB 
+ make use of Gradient (get creative) 
 
-*****
-use simple easy to understand css
-horizontaly long form add some  welcome text one left side of the form full width add shadow 
-*use beginer friendly tags and atributes
-also provide explantion for the tags and atributes you use seperately  
+ use easy syntax and tags and attributes and explain the procces and code
+ to me separately dont comment in the code pride a separate text 
+explaining the process and code 

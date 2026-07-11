@@ -1,4 +1,4 @@
-/* universal css for page optimization */
+/* universal css for page optimization didnt use ai on this btw */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -270,92 +270,279 @@ margin: 20px 0;
     font-weight: 600;
     cursor: pointer;
 }
-.form-section-with-ai {
-    background-color: #0D1B2A;
-    border-radius: 12px;
-    margin: 20px;
-}
 
-.contact-section {
-  display: flex;                
-  max-width: 900px;             
-  width: 100%;                  
-  margin: 50px auto;            
-  background-color: #ffffff;               
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
-  overflow: hidden;             
-}
-
-.welcome-box {
-  flex: 1;                      
-  background-image:url("../assets/banner.jpg");   
-  color: #ffffff;               
-  padding: 40px;                
-}
-
-.welcome-box h2 {
-  margin-top: 0;
-  font-size: 28px;
-}
-
-.contact-form {
-  flex: 1;                      
-  padding: 40px;                
+/* Full-Width Split Section Wrapper */
+.form-section {
+  margin-top: 80px;
+  width: 100%;
+  min-height: 80vh;
   display: flex;
-  flex-direction: column;       
   justify-content: center;
+  align-items: center;
+  padding: 80px 10%;
+  /* Creative multi-angle gradient using requested system color schema */
+  background: linear-gradient(25deg, #0D1B2A 0%, #16293E 30%, #1D3FA5 70%, #2563EB 100%);
 }
 
-.input-group {
-  margin-bottom: 20px;          
+.split-container {
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.input-group label {
-  display: block;               
-  margin-bottom: 5px;           
-  font-weight: bold;
-  color: #333333;
+/* Left side columns spacing definitions */
+.newsletter-column {
+  flex: 1.1;
 }
 
-.input-group input, 
-.input-group textarea {
-  width: 100%;                  
-  padding: 10px;                
-  border: 1px solid #cccccc;    
-  border-radius: 4px;           
-  box-sizing: border-box;       
+.form-card {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
 }
 
-.input-group textarea {
-  resize: vertical;             
+.form-title {
+  color: #0D1B2A;
+  font-family: "inter";
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.form-subtitle {
+  color: #2563EB;
+  font-family: "inter";
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  color: #0D1B2A;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "inter";
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-family: "inter";
+  border: 2px solid #E5E7EB;
+  border-radius: 6px;
+  color: #0D1B2A;
+  outline: none;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease;
+}
+
+.form-control:focus {
+  border-color: #2563EB;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
 }
 
 .submit-btn {
-  background-color: #2563EB;    
-  color: white;
-  padding: 12px;
-  border: none;                 
-  border-radius: 4px;
-  cursor: pointer;              
+  width: 100%;
+  background-color: #2563EB;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "inter";
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 8px;
 }
 
 .submit-btn:hover {
-  background-color: #0D1B2A;    
+  background-color: #0D1B2A;
 }
+
+/* Right side columns styling definitions */
+.info-column {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.section-sub-title {
+  color: #ffffff;
+  font-family: "inter";
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: left;
+  border-left: 4px solid #2563EB;
+  padding-left: 10px;
+}
+
+/* Job Board Cards block styles */
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.job-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-role {
+  color: #ffffff;
+  font-family: "inter";
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.job-meta {
+  color: #E5E7EB;
+  font-family: "inter";
+  font-size: 13px;
+  text-align: left;
+}
+
+.job-btn {
+  background-color: #ffffff;
+  color: #0D1B2A;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "inter";
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.job-btn:hover {
+  background-color: #2563EB;
+  color: #ffffff;
+}
+
+/* FAQ Accordion block styles */
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 16px;
+  text-align: left;
+}
+
+.faq-header {
+  color: #0D1B2A;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.faq-body {
+  color: #575757;
+  font-family: "inter";
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+/* Responsive responsive adaptation logic code */
+@media (max-width: 992px) {
+  .form-section {
+    padding: 50px 20px;
+  }
+  .split-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+  }
+}
+
 .footer {
     background-color: #0D1B2A;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1551px; for pixel perfect of figma
-    margin: 0 auto; */
-    color: #ffffff;
-    font-size: 16px;
-    padding: 20px 60px;
+    width: 100%;
+}
+
+.footer-logo img {
+    max-height: 40px;
+    width: auto;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 20px;
+}
+
+.sociallinks span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .footertext {
     opacity: 40%;
+}
+
+.policy span {
+    cursor: pointer;
 }
