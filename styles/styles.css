@@ -34,8 +34,12 @@
     cursor: pointer;
     border-style: none;
 }
+/* used gredient for overlay took help of ai */
 .hero-section {
-    background-image: url('../assets/banner.png');
+    background-image:  
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../assets/banner.jpg');
+
     background-position: center;
     background-size: cover;
     width: auto;
