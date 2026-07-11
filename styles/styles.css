@@ -185,7 +185,7 @@ li::marker {
     font-family: "inter";
     font-weight: bold;
     font-size: 44px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: start;
     margin-top: 8px;
     min-width: 304.66px;
@@ -222,4 +222,44 @@ li::marker {
     font-family: "inter";
     font-size: 13px;
     color: #93C5FD;
+}
+.hr2 {
+margin: 20px 0;
+}
+.pakageitemlist {
+    color: #333333;
+}
+.pakageitemlist2 {
+    color: #ffffff;
+}
+
+.btn1 {
+    padding: 11px 106.33px;
+    border: 1px solid #2563EB;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #2563EB;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn2 {
+    padding: 11px 124.84px;
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn3 {
+    padding: 11px 113.33px;
+    border: 1px solid #0D1B2A;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #0D1B2A;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
