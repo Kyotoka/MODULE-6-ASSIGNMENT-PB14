@@ -96,6 +96,31 @@
     margin-bottom: 33px;
 }
 .dev {
-    border-radius: 12px;
+    border-radius : 12px;
     overflow: hidden;
+    border: 1px solid #E5E7EB;
+}
+.devinfo {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+}
+.post {
+    color: #2563EB;
+    font-family: "inter";
+    font-size: 12px;
+    font-weight: bold;
+}
+.devname {
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.devteamname {
+    color: #575757;
+    font-family: "inter";
+    font-size: 24px;
 }
