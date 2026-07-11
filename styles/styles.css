@@ -263,95 +263,92 @@ margin: 20px 0;
     font-size: 14px;
     font-weight: 600;
 }
-
-/* General settings for the whole section */
-.contact-section {
-  display: flex; /* Aligns welcome text and form side-by-side horizontally */
-  background-color: #ffffff; /* White background */
-  padding: 40px;
-  border: 2px solid #000000; /* Black outline around the section */
-  border-radius: 8px;
-  max-width: 1100px;
-  margin: 40px auto; /* Centers the whole block on the web page */
-  font-family: Arial, sans-serif;
-  gap: 40px; /* Space between welcome text and form */
+.form-section-with-ai {
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    margin: 20px;
 }
 
-/* Left side welcome block */
+.contact-section {
+  display: flex;                
+  max-width: 900px;             
+  width: 100%;                  
+  margin: 50px auto;            
+  background-color: #ffffff;               
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;             
+}
+
 .welcome-box {
-  flex: 1; /* Takes up half the horizontal space */
+  flex: 1;                      
+  background-image:url("../assets/banner.jpg");   
+  color: #ffffff;               
+  padding: 40px;                
 }
 
 .welcome-box h2 {
-  color: #0056b3; /* Bold Blue heading */
-  font-size: 28px;
   margin-top: 0;
+  font-size: 28px;
 }
 
-.welcome-box p {
-  color: #333333; /* Dark gray/black text */
-  line-height: 1.6;
-}
-
-/* Right side form block */
 .contact-form {
-  flex: 1.5; /* Takes up slightly more space for layout balance */
+  flex: 1;                      
+  padding: 40px;                
   display: flex;
-  flex-direction: column; /* Stacks form inputs cleanly from top to bottom */
-  gap: 15px; /* Spaces out each input area */
+  flex-direction: column;       
+  justify-content: center;
 }
 
-/* Individual label and input groups */
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.input-group {
+  margin-bottom: 20px;          
 }
 
-.form-group label {
-  color: #000000; /* Black labels */
+.input-group label {
+  display: block;               
+  margin-bottom: 5px;           
   font-weight: bold;
-  font-size: 14px;
+  color: #333333;
 }
 
-/* Text boxes, email, phone, and textareas */
-.form-group input, 
-.form-group textarea {
-  padding: 10px;
-  border: 1px solid #000000; /* Simple black borders */
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: #ffffff;
+.input-group input, 
+.input-group textarea {
+  width: 100%;                  
+  padding: 10px;                
+  border: 1px solid #cccccc;    
+  border-radius: 4px;           
+  box-sizing: border-box;       
 }
 
-/* Give the text area extra vertical space */
-.form-group textarea {
-  height: 100px;
-  resize: vertical; /* Allows user to pull it down but not break layout width */
+.input-group textarea {
+  resize: vertical;             
 }
 
-/* Highlights input boxes with blue border when clicked */
-.form-group input:focus, 
-.form-group textarea:focus {
-  outline: none;
-  border-color: #0056b3; /* Turns blue on focus */
-  box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
-}
-
-/* The Submit Button */
 .submit-btn {
-  background-color: #0056b3; /* Deep Blue background */
-  color: #ffffff; /* White text */
-  border: none;
+  background-color: #2563EB;    
+  color: white;
   padding: 12px;
+  border: none;                 
+  border-radius: 4px;
+  cursor: pointer;              
   font-size: 16px;
   font-weight: bold;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.2s ease;
 }
 
-/* Turns the button darker blue when hovering over it */
 .submit-btn:hover {
-  background-color: #000000; /* Shifts to black on hover */
+  background-color: #0D1B2A;    
+}
+.footer {
+    background-color: #0D1B2A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1551px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 60px;
+}
+
+.footertext {
+    opacity: 40%;
 }
