@@ -122,5 +122,104 @@
 .devteamname {
     color: #575757;
     font-family: "inter";
-    font-size: 24px;
+    font-size: 14px;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.pricing-h1 {
+    font-family: "inter";
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.pricing-p {
+    margin-bottom: 48px;
+    color: #575757;
+    font-size: 16px;
+
+
+}
+.pricecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 195.5px;
+    gap: 24px;
+}
+.card1{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    list-style-position: inside;
+    
+}
+li::marker {
+    color: #2563EB;
+}
+.card2 {
+        padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #0D1B2A;
+    color: #ffffff;
+    list-style-position: inside;
+}
+.card3{
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #F8F9FB;
+    list-style-position: inside;
+}
+.pakage-name {
+    text-align: start;
+    font-family: "inter";
+    font-size: 13px;
+    color: #888888;
+}
+.price2 {
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 44px;
+    color: #FFFFFF;
+    text-align: start;
+    margin-top: 8px;
+    min-width: 304.66px;
+}
+.price1 {
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 44px;
+    color: #0D1B2A;
+    text-align: start;
+    margin-top: 8px;
+    min-width: 304.66px;
+}
+.pakage-size {
+    text-align: start;
+    font-size: 13px;
+    font-family: "inter";
+    margin-top: 8px;
+    color: #888888;
+}
+.hr {
+    margin: 20px 0;
+    color: #E5E7EB;
+}
+.pakageitem {
+    text-align: start;
+    gap: 8px;
+}
+.listgap {
+    padding: 10px 0;
+}
+.pakage-name-2 {
+     text-align: start;
+    font-family: "inter";
+    font-size: 13px;
+    color: #93C5FD;
 }
