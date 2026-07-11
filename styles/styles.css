@@ -1,4 +1,4 @@
-/* universal css for page optimization didnt use ai on this btw */
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +8,7 @@
     font-family: "inter";
 }
 .container {
-    /* max-width: 1551px;  for piel perfect from figma
+    /* max-width: 1551px; 
     margin: 0 auto; */
 }
 .navigationbar {
@@ -34,7 +34,7 @@
     cursor: pointer;
     border-style: none;
 }
-/* used gredient for overlay took help of ai */
+
 .hero-section {
     background-image:  
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -69,8 +69,6 @@
     font-size: 24px;
     font-weight: bold;
     padding: 24.18px 62.5px;
-    /* need to add text outline */
-    /* -webkit-text-stroke: 1px black ; */
     background-color: #1D4ED8;
     border-radius: 10px;
     border-style: none;
@@ -479,17 +477,6 @@ textarea.form-control {
   line-height: 1.5;
 }
 
-/* Responsive responsive adaptation logic code */
-@media (max-width: 992px) {
-  .form-section {
-    padding: 50px 20px;
-  }
-  .split-container {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 40px;
-  }
-}
 
 .footer {
     background-color: #0D1B2A;
