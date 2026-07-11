@@ -263,3 +263,95 @@ margin: 20px 0;
     font-size: 14px;
     font-weight: 600;
 }
+
+/* General settings for the whole section */
+.contact-section {
+  display: flex; /* Aligns welcome text and form side-by-side horizontally */
+  background-color: #ffffff; /* White background */
+  padding: 40px;
+  border: 2px solid #000000; /* Black outline around the section */
+  border-radius: 8px;
+  max-width: 1100px;
+  margin: 40px auto; /* Centers the whole block on the web page */
+  font-family: Arial, sans-serif;
+  gap: 40px; /* Space between welcome text and form */
+}
+
+/* Left side welcome block */
+.welcome-box {
+  flex: 1; /* Takes up half the horizontal space */
+}
+
+.welcome-box h2 {
+  color: #0056b3; /* Bold Blue heading */
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.welcome-box p {
+  color: #333333; /* Dark gray/black text */
+  line-height: 1.6;
+}
+
+/* Right side form block */
+.contact-form {
+  flex: 1.5; /* Takes up slightly more space for layout balance */
+  display: flex;
+  flex-direction: column; /* Stacks form inputs cleanly from top to bottom */
+  gap: 15px; /* Spaces out each input area */
+}
+
+/* Individual label and input groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  color: #000000; /* Black labels */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Text boxes, email, phone, and textareas */
+.form-group input, 
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #000000; /* Simple black borders */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+/* Give the text area extra vertical space */
+.form-group textarea {
+  height: 100px;
+  resize: vertical; /* Allows user to pull it down but not break layout width */
+}
+
+/* Highlights input boxes with blue border when clicked */
+.form-group input:focus, 
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0056b3; /* Turns blue on focus */
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+/* The Submit Button */
+.submit-btn {
+  background-color: #0056b3; /* Deep Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Turns the button darker blue when hovering over it */
+.submit-btn:hover {
+  background-color: #000000; /* Shifts to black on hover */
+}
